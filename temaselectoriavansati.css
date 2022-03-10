@@ -1,0 +1,31 @@
+a[href^="https://www.google.com/"]{
+    color:green;
+    
+    }
+    
+    a[target="_blank"]{
+    color:red;
+    
+    }
+    
+    #second-div p:nth-child(even) {
+      background: red;
+    }
+    
+    #second-div p:nth-child(odd) {
+      background: yellow;
+      }
+      
+     #first-div p::after{ 
+     content:"NEW";
+     color:"yellow";
+      }
+      
+    p:last-child  {
+     font-style: normal;
+    
+    }
+    
+     :hover p:last-child {
+     font-style:italic;
+    }
